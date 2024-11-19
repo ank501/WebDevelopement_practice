@@ -15,3 +15,8 @@ th{
     background-color: Teal;
     color: white;
 }
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+  }
