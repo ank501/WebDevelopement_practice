@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
             // console.log("Current path:", currentPath);
         })
         .catch((error) => console.error("Error loading navbar:", error));
-});
+    });
 
 
 

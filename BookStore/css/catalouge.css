@@ -1,0 +1,21 @@
+.book-list { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px;
+ }
+.book { 
+    border: 1px solid #ddd; 
+    padding: 10px; 
+    border-radius: 5px; 
+    width: 200px; 
+}
+.book button { 
+    background-color: teal;
+     color: white; 
+     border: none; 
+     padding: 5px 10px; 
+     cursor: pointer; 
+}
+.book button:hover { 
+    background-color: darkcyan; 
+}
