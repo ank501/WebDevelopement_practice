@@ -9,16 +9,21 @@
 </head>
 <body>
     <div id="navbar"></div>
-    <h4>Login</h4>
+    <video width="100%" min-height="100vh" z-index="-110" autoplay muted>
+        <source src="../img/home.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <!-- <h4>Login</h4> -->
     <div id="container">
         <form id="loginForm">
+            <p>Login Form</p>
             <label for="email">Email</label>
             <input type="email" name="" id="email" placeholder="Enter Email"  required>
             <label for="password">Password</label>
             <input type="password" name="" id="password" placeholder="Enter your password" required minlength="8">
+            <p>Don't have an accout?  <a href="./registration.html">Create Account</a></p>
             <input type="submit" id="login"  value="Login">
         </form>
-
     </div>
     <div id="message"></div>
 </body>
