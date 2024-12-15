@@ -10,9 +10,11 @@ nav{
     z-index: 1000;
     width: 100%;
     /* border: 1px solid red; */
+    height: 60px;
     padding: 2px;
     border-radius: 0px 0px 20px 20px;
     background-color: teal;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         /* background-image: url("../BookStore/favicon.ico") */
 margin-bottom: 40px;
 }
